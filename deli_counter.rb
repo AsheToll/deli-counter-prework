@@ -37,7 +37,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  while katz_deli.length > 0
+  if katz_deli.length > 0
     puts "Currently serving #{katz_deli.first}."
   end
   puts "There is nobody waiting to be served!"
